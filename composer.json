@@ -1,0 +1,22 @@
+{
+    "name": "vishal/contactform",
+    "description": "contact form",
+    "require": {
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "vishal\\contactform\\ContactFormServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ],
+        "psr-4": {
+            "Vishal\\Contactform\\": "src/"
+        }
+    }
+}
